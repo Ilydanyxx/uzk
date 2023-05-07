@@ -234,6 +234,7 @@ header {
   justify-content: center;
   padding-left: 0;
   margin: 0;
+  margin-top: 120px;
 }
 .card-name {
   padding-left: 16px;
@@ -252,7 +253,7 @@ header {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/vangog.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -276,7 +277,6 @@ h1 {
 
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
 
   color: #ffffff;
 }
@@ -380,11 +380,14 @@ h1 {
 } */
 /* third-section */
 .third-section {
-  display: none;
 }
 .third-section {
   justify-content: center;
   padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
 }
 
 .third-section-name {
@@ -398,6 +401,7 @@ h1 {
 
   text-align: center;
 
+  padding-top: 120px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -1291,4 +1295,22 @@ footer {
 }
 .no-scroll {
   overflow: hidden;
+}
+.apc {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  flex-wrap: wrap;
+  width: 264px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  letter-spacing: 0.02em;
+  margin: 16px 0 0 0;
+
+  color: #e7e9fc;
+}
+.new-text {
+  width: calc((100% - 80px) / 1);
 }
